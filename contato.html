@@ -1,0 +1,536 @@
+<!DOCTYPE html>
+<html lang="pt-BR">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+
+    <title>Contato | Caramella Docie</title>
+
+    <link rel="stylesheet" href="style.css">
+    <script src="script.js"></script>
+
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+
+    <link
+        href="https://fonts.googleapis.com/css2?family=Cormorant+Garamond:wght@400;500;600;700&family=Montserrat:wght@300;400;500;600&display=swap"
+        rel="stylesheet">
+</head>
+
+<body>
+
+
+    <header class="cabecalho">
+
+        <div class="logo">
+            CARAMELLA DOCIE
+        </div>
+
+        <nav class="menu">
+            <a href="index.html">Início</a>
+            <a href="menu.html">Menu</a>
+            <a href="sobre.html">Sobre</a>
+            <a href="contato.html">Contato</a>
+        </nav>
+
+        <div class="icones">
+            <a href="#" aria-label="Pesquisar">
+                <img src="loupe-1.png" alt="">
+            </a>
+
+            <button type="button" class="botao-perfil" id="abrir-conta" aria-label="Abrir minha conta">
+                <img src="user-4.png" alt="">
+            </button>
+
+            <button type="button" class="botao-carrinho" id="abrir-carrinho" aria-label="Abrir carrinho">
+                <img src="grocery-store.png" alt="">
+            </button>
+            
+                <button type="button" id="alternar-tema" aria-label="Alternar tema">
+                    ☾
+                </button>
+            </div>
+        </div>
+
+    </header>
+    <main class="pagina-contato">
+
+        <section class="contato-hero">
+
+            <img src="1o-imagem.webp" alt="Entrada iluminada da Caramella Docie" class="contato-hero-imagem">
+
+        </section>
+
+        <section class="contato-formulario-area">
+
+            <div class="contato-decoracao">
+
+
+            </div>
+
+            <div class="contato-formulario">
+
+                <span class="contato-subtitulo">
+                    ENTRE EM CONTATO
+                </span>
+
+                <h1>Vamos conversar?</h1>
+
+                <p class="contato-introducao">
+                    Queremos ouvir você! Entre em contato conosco
+                    para tirar dúvidas, compartilhar sugestões
+                    ou saber mais sobre nossas delícias.
+                </p>
+
+                <form class="formulario" action="#" method="post">
+
+                    <div class="campo-formulario">
+
+                        <label for="nome">SEU NOME</label>
+
+                        <input type="text" id="nome" name="nome" placeholder="Digite seu nome completo" required>
+
+                    </div>
+
+                    <div class="campo-formulario">
+
+                        <label for="email">SEU E-MAIL</label>
+
+                        <input type="email" id="email" name="email" placeholder="Digite seu e-mail" required>
+
+                    </div>
+
+                    <div class="campo-formulario">
+
+                        <label for="assunto">ASSUNTO</label>
+
+                        <select id="assunto" name="assunto" required>
+
+                            <option value="" disabled selected>
+                                Selecione um assunto
+                            </option>
+
+                            <option value="duvidas">Dúvidas</option>
+                            <option value="encomendas">Encomendas</option>
+                            <option value="eventos">Eventos</option>
+                            <option value="sugestoes">Sugestões</option>
+                            <option value="outros">Outros assuntos</option>
+
+                        </select>
+
+                    </div>
+
+                    <div class="campo-formulario campo-mensagem">
+
+                        <label for="mensagem">SUA MENSAGEM</label>
+
+                        <textarea id="mensagem" name="mensagem" placeholder="Conte para nós..." required></textarea>
+
+                    </div>
+
+                    <button type="submit" class="contato-botao">
+                        ENVIAR MENSAGEM →
+                    </button>
+
+                </form>
+
+            </div>
+
+        </section>
+
+        <section class="contato-informacoes">
+
+            <div class="contato-informacoes-imagem">
+
+                <img src="3o-imagem.webp" alt="Café e croissant em uma mesa da Caramella Docie">
+
+            </div>
+
+            <div class="contato-informacoes-conteudo">
+
+                <div class="contato-dados">
+
+                    <div class="contato-item">
+
+                        <span class="contato-icone">⌖</span>
+
+                        <div>
+                            <h2>ENDEREÇO</h2>
+
+                            <p>
+                                Belo Horizonte - MG<br>
+                                Brasil
+                            </p>
+                        </div>
+
+                    </div>
+
+                    <div class="contato-item">
+
+                        <span class="contato-icone">◷</span>
+
+                        <div>
+                            <h2>HORÁRIO DE FUNCIONAMENTO</h2>
+
+                            <p>
+                                Segunda a sábado<br>
+                                Das 09h às 19h
+                            </p>
+                        </div>
+
+                    </div>
+
+                    <div class="contato-item">
+
+                        <span class="contato-icone">✉</span>
+
+                        <div>
+                            <h2>E-MAIL</h2>
+
+                            <p>
+                                contato@caramelladocie.com
+                            </p>
+                        </div>
+
+                    </div>
+
+                    <div class="contato-item">
+
+                        <span class="contato-icone">♧</span>
+
+                        <div>
+                            <h2>TELEFONE</h2>
+
+                            <p>
+                                (31) 00000-0000
+                            </p>
+                        </div>
+
+                    </div>
+
+                </div>
+
+                <div class="contato-frase">
+
+                    <p>
+                        ESTAMOS ESPERANDO<br>
+                        SUA VISITA.
+                    </p>
+
+                    <span></span>
+
+                </div>
+
+            </div>
+
+        </section>
+
+    </main>
+
+    <footer class="rodape">
+
+        <div class="rodape-superior">
+
+            <div class="rodape-marca">
+
+                <h3>CARAMELLA DOCIE</h3>
+
+                <p>
+                    Pâtisserie française<br>
+                    Um toque de delicadeza em cada sabor.
+                </p>
+
+            </div>
+
+            <div class="rodape-coluna">
+
+                <h4>ENDEREÇO</h4>
+
+                <p>
+                    Belo Horizonte - MG<br>
+                    Brasil
+                </p>
+
+            </div>
+
+            <div class="rodape-coluna">
+
+                <h4>FALE CONOSCO</h4>
+
+                <p>
+                    contato@caramelladocie.com<br>
+                    (31) 00000-0000
+                </p>
+
+            </div>
+
+            <div class="rodape-coluna">
+
+                <h4>HORÁRIOS</h4>
+
+                <p>
+                    Segunda a sábado<br>
+                    09h às 19h
+                </p>
+
+            </div>
+
+        </div>
+
+        <div class="rodape-inferior">
+
+            <p>
+                © 2026 Caramella Docie. Todos os direitos reservados.
+            </p>
+
+            <div class="redes-sociais">
+                <a href="#" aria-label="Instagram">◎</a>
+                <a href="#" aria-label="Pinterest">P</a>
+            </div>
+
+        </div>
+
+    </footer>
+
+
+
+
+
+
+
+
+    <!-- POP-UP MINHA CONTA / LOGIN -->
+
+    <div class="conta-overlay" id="conta-overlay">
+        <section class="conta-popup" role="dialog" aria-modal="true" aria-labelledby="conta-titulo">
+
+            <button type="button" class="conta-fechar" id="fechar-conta" aria-label="Fechar">
+                x
+            </button>
+
+            <div class="conta-cabecalho">
+                <h2 id="conta-titulo">Minha conta</h2>
+                <p>Você já tem uma conta na Caramella Docie?</p>
+            </div>
+
+            <form class="conta-formulario" id="formulario-conta">
+
+                <div class="conta-campo conta-nome" hidden>
+                    <label for="conta-nome">NOME COMPLETO*</label>
+                    <input type="text" id="conta-nome" placeholder="Digite seu nome">
+                </div>
+
+                <div class="conta-campo">
+                    <label for="conta-email">E-MAIL OU TELEFONE*</label>
+                    <input type="text" id="conta-email" placeholder="seu@email.com" required>
+                </div>
+
+                <div class="conta-campo">
+                    <label for="conta-senha">SENHA*</label>
+                    <input type="password" id="conta-senha" placeholder="Digite sua senha..." required>
+                </div>
+
+                <button type="submit" class="conta-entrar">
+                    ENTRAR
+                </button>
+            </form>
+
+            <div class="conta-novo-cliente">
+                <h3>Novo cliente?</h3>
+                <p>
+                    Crie sua conta para apreciar o melhor de
+                    Caramella Docie.
+                </p>
+
+                <button type="button" class="conta-criar" id="criar-conta">
+                    CRIAR CONTA
+                </button>
+            </div>
+
+        </section>
+    </div>
+
+
+    <!-- POP-UP CRIAR CONTA -->
+
+    <div class="cadastro-overlay" id="cadastro-overlay">
+        <section class="cadastro-popup" role="dialog" aria-modal="true" aria-labelledby="cadastro-titulo">
+
+            <button type="button" class="cadastro-fechar" id="fechar-cadastro" aria-label="Fechar cadastro">
+                x
+            </button>
+
+            <h2 id="cadastro-titulo">Criar conta</h2>
+
+            <form id="formulario-cadastro">
+
+                <div class="cadastro-campo">
+                    <label for="cadastro-nome">
+                        NOME <span>*</span>
+                    </label>
+                    <input type="text" id="cadastro-nome" name="nome" placeholder="Digite seu nome" autocomplete="name"
+                        required>
+                </div>
+
+                <div class="cadastro-campo">
+                    <label for="cadastro-email">
+                        E-MAIL <span>*</span>
+                    </label>
+                    <input type="email" id="cadastro-email" name="email" placeholder="seu@email.com"
+                        autocomplete="email" required>
+                </div>
+
+                <div class="cadastro-campo">
+                    <label for="cadastro-telefone">
+                        TELEFONE <span>*</span>
+                    </label>
+                    <input type="tel" id="cadastro-telefone" name="telefone" placeholder="(00) 90000-0000"
+                        autocomplete="tel" maxlength="15" required>
+                </div>
+
+                <div class="cadastro-campo">
+                    <label for="cadastro-cpf">
+                        CPF <span>*</span>
+                    </label>
+                    <input type="text" id="cadastro-cpf" name="cpf" placeholder="000.000.000-00" maxlength="14"
+                        required>
+                </div>
+
+                <div class="cadastro-campo">
+                    <label for="cadastro-senha">
+                        CRIE UMA SENHA <span>*</span>
+                    </label>
+                    <input type="password" id="cadastro-senha" name="senha" placeholder="000.000.000-00" minlength="8"
+                        autocomplete="new-password" required>
+                </div>
+
+                <div class="cadastro-campo">
+                    <label for="cadastro-confirmar-senha">
+                        CONFIRME SUA SENHA <span>*</span>
+                    </label>
+                    <input type="password" id="cadastro-confirmar-senha" name="confirmarSenha"
+                        placeholder="Confirme sua senha" minlength="8" autocomplete="new-password" required>
+                </div>
+
+                <p class="cadastro-mensagem" id="cadastro-mensagem" aria-live="polite"></p>
+
+                <button type="submit" class="cadastro-botao">
+                    CRIAR CONTA
+                </button>
+
+            </form>
+        </section>
+    </div>
+
+
+    <!-- POP-UP CARRINHO -->
+
+    <div class="carrinho-overlay" id="carrinho-overlay">
+        <section class="carrinho-popup" role="dialog" aria-modal="true" aria-labelledby="carrinho-titulo">
+
+            <div class="carrinho-cabecalho">
+                <h2 id="carrinho-titulo">Carrinho</h2>
+
+                <button type="button" class="carrinho-fechar" id="fechar-carrinho" aria-label="Fechar carrinho">
+                    x
+                </button>
+            </div>
+
+            <div class="carrinho-produtos" id="carrinho-produtos">
+
+                <article class="carrinho-produto" data-preco="16">
+                    <div class="carrinho-produto-imagem">
+                        <img src="2o-imagem.webp" alt="Coffret de macarons">
+                    </div>
+
+                    <div class="carrinho-produto-detalhes">
+                        <button type="button" class="carrinho-remover" aria-label="Remover produto">
+                            x
+                        </button>
+
+                        <h3>Coffret métal de 4 macarons</h3>
+                        <p class="produto-variacao">1 un</p>
+                        <p class="produto-preco">R$ 16,00</p>
+
+                        <div class="produto-controles">
+                            <button type="button" class="quantidade-menos" aria-label="Diminuir quantidade">-</button>
+                            <span class="quantidade">1</span>
+                            <button type="button" class="quantidade-mais" aria-label="Aumentar quantidade">+</button>
+                            <button type="button" class="produto-remover-icone" aria-label="Excluir produto">♙</button>
+                        </div>
+                    </div>
+                </article>
+
+                <article class="carrinho-produto" data-preco="16">
+                    <div class="carrinho-produto-imagem">
+                        <img src="1o-quadrinho.webp" alt="Coffret de macarons">
+                    </div>
+
+                    <div class="carrinho-produto-detalhes">
+                        <button type="button" class="carrinho-remover" aria-label="Remover produto">
+                            x
+                        </button>
+
+                        <h3>Coffret métal de 4 macarons</h3>
+                        <p class="produto-variacao">1 un</p>
+                        <p class="produto-preco">R$ 16,00</p>
+
+                        <div class="produto-controles">
+                            <button type="button" class="quantidade-menos" aria-label="Diminuir quantidade">-</button>
+                            <span class="quantidade">1</span>
+                            <button type="button" class="quantidade-mais" aria-label="Aumentar quantidade">+</button>
+                            <button type="button" class="produto-remover-icone" aria-label="Excluir produto">♙</button>
+                        </div>
+                    </div>
+                </article>
+
+            </div>
+
+            <div class="carrinho-cupom">
+                <label for="codigo-cupom">Aplicar cupom</label>
+
+                <div class="cupom-controles">
+                    <input type="text" id="codigo-cupom" placeholder="Código do cupom">
+                    <button type="button" id="aplicar-cupom">APLICAR</button>
+                </div>
+
+                <p id="mensagem-cupom"></p>
+            </div>
+
+            <div class="carrinho-resumo">
+                <div class="resumo-linha">
+                    <span>Total:</span>
+                    <strong id="carrinho-total">R$ 32,00</strong>
+                </div>
+
+                <div class="resumo-linha">
+                    <span>Taxa de entrega:</span>
+                    <strong class="entrega-gratis">GRÁTIS</strong>
+                </div>
+            </div>
+
+            <button type="button" class="carrinho-comprar" id="carrinho-comprar">
+                COMPRAR AGORA
+            </button>
+
+            <div class="carrinho-pagamentos">
+                <span class="pagamento-pix">✥ pix</span>
+                <span class="pagamento-visa">VISA</span>
+
+                <span class="pagamento-master">
+                    <i></i><i></i>
+                </span>
+
+                <span class="pagamento-elo">elo</span>
+            </div>
+
+        </section>
+    </div>
+
+
+
+    <script src="script.js"></script>
+</body>
+
+</html>
